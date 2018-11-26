@@ -10,7 +10,7 @@ public class runner {
         skyView sv1 =  new skyView(4,3,scan);
         skyView sv2 =  new skyView(3,2,scan2);
 
-        System.out.println("average 1: " +sv1.getAverage(1,3,0,2));
-        System.out.println("average 2: " +sv2.getAverage(0,1,0,1));
+        System.out.println("average 1 : " + sv1.getAverage(1,3,0,2));
+        System.out.println("average 2 : " + sv2.getAverage(0,1,0,1));
     }
 }
